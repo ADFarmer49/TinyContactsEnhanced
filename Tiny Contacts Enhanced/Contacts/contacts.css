@@ -1,0 +1,24 @@
+html {
+  background-color: lightblue;
+}
+  
+body {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+#displayContacts th {
+  text-align: center;
+}
+
+.deleteButton {
+  background: darkred;
+  color: white;
+}
+
+.deleteButton:hover {
+  background: red;
+}
