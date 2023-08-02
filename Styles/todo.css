@@ -1,0 +1,68 @@
+html {
+  background-color: lightblue;
+}
+  
+body {
+  text-align: center;
+}
+    
+#todoInput {
+  width: 50%;
+  height: 35px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border: solid 2px black;
+}
+    
+#error {
+  display: none;
+  margin-top: -5px;
+  color: rgb(224, 53, 53);
+  margin-bottom: 10px;
+  font-size: large;
+}
+    
+#todoList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+    
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-left: 8px;
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+    
+.delete-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: darkred;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+    
+.delete-button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+  
+.addTodoButton {
+  height: 35px;
+  background-color: lightgray;
+}
+  
+.addTodoButton:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}

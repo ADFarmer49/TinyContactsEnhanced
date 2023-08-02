@@ -1,0 +1,22 @@
+html {
+    background: lightblue;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.menuHeader {
+    text-align: center;
+}
+
+img {
+    height: 125px;
+    width: 125px;
+}
+
+.menuImages {
+    display: inline-block;
+    text-align: center;
+}
